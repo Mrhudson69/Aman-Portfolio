@@ -73,62 +73,62 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "Grafana",
-    icon: html,
-  },
-  {
-    name: "Kibana",
-    icon: css,
-  },
-  {
-    name: "Elastic",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Kubernetes",
-    icon: reactjs,
-  },
-  {
-    name: "Kali",
-    icon: nextJs,
-  },
-  {
-    name: "Proxmox",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Docker",
-    icon: angular,
-  },
-  {
-    name: "Java Script",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Linux",
-    icon: java,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
-  {
-    name: "Git",
-    icon: git,
-  },
+  // {
+  //   name: "Grafana",
+  //   icon: html,
+  // },
+  // {
+  //   name: "Kibana",
+  //   icon: css,
+  // },
+  // {
+  //   name: "Elastic",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
+  // {
+  //   name: "Kubernetes",
+  //   icon: reactjs,
+  // },
+  // {
+  //   name: "Kali",
+  //   icon: nextJs,
+  // },
+  // {
+  //   name: "Proxmox",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Docker",
+  //   icon: angular,
+  // },
+  // {
+  //   name: "Java Script",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Linux",
+  //   icon: java,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
+  // {
+  //   name: "Git",
+  //   icon: git,
+  // },
 ];
 
 const experiences = [
