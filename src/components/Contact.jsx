@@ -35,23 +35,24 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_7mlifcp',             // Your Service ID
+        'template_l5pa7yq',            // Your Template ID
         {
-          from_name: form.name,
+          from_name: form.name,        // Corresponds to ${from_name}
           to_name: personalInfo.fullName,
           from_email: form.email,
           to_email: personalInfo.email,
-          message: form.message,
+          message: form.message,       // Corresponds to ${message}
           reply_to: form.email,
+          action_link: "http://yourwebsite.com", // You can set this link dynamically if needed
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'QQXsVzFWxs3hxKnKB'             // Your Public Key
       )
       .then(
         () => {
           setModalContent({
             title: "Success!",
-            message: "Thank you. I will get back to you as soon as possilbe.",
+            message: "Thank you. I will get back to you as soon as possible.",
             buttonText: "Ok",
           });
           setIsModalVisible(true);

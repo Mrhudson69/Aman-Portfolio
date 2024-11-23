@@ -22,7 +22,7 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div
-          className="relative w-full h-[230px] cursor-pointer"
+          className="relative w-full h-[180px] cursor-pointer"
           onClick={() => window.open(hosted_link, "_blank")}
         >
           <img
@@ -69,8 +69,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p className={styles.sectionSubText}>My Learning</p>
+        <h2 className={styles.sectionHeadText}>Tutorial.</h2>
       </motion.div>
 
       <div className="w-full flex">
