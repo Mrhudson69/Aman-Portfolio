@@ -246,7 +246,7 @@ From server setups to seamless integrations, I enjoy helping teams and individua
 };
 
 const publicUrls = {
-  resume: "./src/assets/Aman_Resume.pdf",
+  resume: "/Aman_Resume.pdf",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
