@@ -246,8 +246,7 @@ From server setups to seamless integrations, I enjoy helping teams and individua
 };
 
 const publicUrls = {
-  resume:
-    "https://docs.google.com/document/d/1EjjALIO4EtN_h0fyK8YMt0MxPrbFfez_H_v19Kzqmdg/edit?usp=sharing",
+  resume: "./src/assets/Aman_Resume.pdf",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
