@@ -247,7 +247,7 @@ From server setups to seamless integrations, I enjoy helping teams and individua
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
+    "https://docs.google.com/document/d/1EjjALIO4EtN_h0fyK8YMt0MxPrbFfez_H_v19Kzqmdg/edit?usp=sharing",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
