@@ -15,9 +15,8 @@ const HireMe = () => {
         <div className="border-t-4 border-blue-500 border-solid rounded-full animate-spin absolute inset-0"></div>
         <a
           href={`https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.email}`}
-          className="flex justify-center items-center absolute left-4 top-4 green-pink-gradient w-16 h-16 sm:w-14 sm:h-14 xs:w-12 xs:h-12 rounded-full"
+          className="flex justify-center items-center absolute left-4 top-4 green-pink-gradient w-16 h-16 rounded-full"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <span className="text-white text-[14px] p-1 font-normal">Hire Me</span>
         </a>
