@@ -8,13 +8,13 @@ import Works from "./components/Works";
 import Contact from "./components/Contact";
 import { StarsCanvas } from "./components/canvas";
 import HireMe from "./components/HireMe";
-// Import the Footer component
+// Import Footer component
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
+      <div className="flex flex-col min-h-screen bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
@@ -28,7 +28,7 @@ const App = () => {
           {/* <StarsCanvas /> */}
         </div>
         <HireMe />
-        {/* Add the Footer component here */}
+        {/* Footer will be placed here */}
         <Footer />
       </div>
     </BrowserRouter>
