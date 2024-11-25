@@ -8,6 +8,8 @@ import Works from "./components/Works";
 import Contact from "./components/Contact";
 import { StarsCanvas } from "./components/canvas";
 import HireMe from "./components/HireMe";
+// Import the Footer component
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
           {/* <StarsCanvas /> */}
         </div>
         <HireMe />
+        {/* Add the Footer component here */}
+        <Footer />
       </div>
     </BrowserRouter>
   );
